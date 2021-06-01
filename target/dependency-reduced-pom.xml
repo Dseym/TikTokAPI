@@ -6,6 +6,12 @@
   <version>1.0</version>
   <build>
     <sourceDirectory>src</sourceDirectory>
+    <extensions>
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ftp</artifactId>
+      </extension>
+    </extensions>
     <resources>
       <resource>
         <filtering>true</filtering>
@@ -59,12 +65,8 @@
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>myMavenRepoWrite</id>
-      <url>${myMavenRepoWriteUrl}</url>
+      <id>dseymoRepo</id>
+      <url>${dseymoRepo}</url>
     </repository>
-    <snapshotRepository>
-      <id>myMavenRepoWrite</id>
-      <url>${myMavenRepoWriteUrl}</url>
-    </snapshotRepository>
   </distributionManagement>
 </project>

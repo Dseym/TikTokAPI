@@ -5,18 +5,18 @@ Read-Only API for TikTok
 pom.xml
 ```xml
 <repositories>
-	<repository>
-		<id>Dseymo-Repo</id>
-		<url>https://mymavenrepo.com/repo/KYN3ATZ0uAnGSOOUWEpB/</url>
-	</repository>
+  <repository>
+  	<id>Dseymo-Repo</id>
+  	<url>http://f0461095.xsph.ru</url>
+  </repository>
 </repositories>
-
+  
 <dependencies>
-	<dependency>
-	    <groupId>ru.dseymo.tiktokapi</groupId>
-	    <artifactId>TiktokAPI</artifactId>
-	    <version>1.0</version>
-	</dependency>
+  <dependency>
+	<groupId>ru.dseymo.tiktokapi</groupId>
+	<artifactId>TiktokAPI</artifactId>
+	<version>1.0</version>
+  </dependency>
 </dependencies>
 ```
 
